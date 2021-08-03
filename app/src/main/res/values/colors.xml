@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF6F00</color>
+    <color name="startcolor">#970808</color>
+    <color name="centercolor">#E60000</color>
+    <color name="endcolor">#E41919</color>
+    <color name="companybagcolor">#F9FAFC</color>
+
+    <color name="colorPrimary1">#FF6F00</color>
+    <color name="colorPrimaryDark">#BF360C</color>
+    <color name="colorAccent">#B71C1C</color>
+    <color name="Red">#E65100</color>
+</resources>

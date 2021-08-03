@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pharmpic3"
+    tools:context=".departments"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="50dp"
+                android:text="Chosse Your Departments"
+                android:textColor="#425060"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:columnCount="2"
+                android:rowCount="3">
+
+                <Button
+                    android:id="@+id/Invoicebtn"
+                    android:layout_width="130dp"
+                    android:layout_height="125dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="#D20C50F7"
+                    android:drawableTop="@drawable/invoice"
+                    android:drawablePadding="20dp"
+                    android:padding="20dp"
+                    android:text="Make invoice"
+                    android:textColor="#FFF" />
+
+                <Button
+                    android:id="@+id/Requestbtn"
+                    android:layout_width="130dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="#D20C50F7"
+                    android:drawableTop="@drawable/request"
+                    android:drawablePadding="20dp"
+                    android:padding="20dp"
+                    android:text="Request medicine"
+                    android:textColor="#FFF" />
+
+                <Button
+                    android:id="@+id/Supplierbtn"
+                    android:layout_width="130dp"
+                    android:layout_height="125dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="#D20C50F7"
+                    android:drawableTop="@drawable/addcump"
+                    android:drawablePadding="20dp"
+                    android:padding="20dp"
+                    android:text="Add Companies"
+                    android:textColor="#FFF" />
+
+                <Button
+                    android:id="@+id/Medicinesbtn"
+                    android:layout_width="130dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="#D20C50F7"
+                    android:drawableTop="@drawable/addmed"
+                    android:drawablePadding="20dp"
+                    android:padding="20dp"
+                    android:text="Add Medicine"
+                    android:textColor="#FFF" />
+
+                <Button
+                    android:id="@+id/aboutbtn"
+                    android:layout_width="130dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="#D20C50F7"
+                    android:drawableTop="@drawable/info"
+                    android:drawablePadding="20dp"
+                    android:padding="20dp"
+                    android:text="About us"
+                    android:textColor="#FFF" />
+
+                <Button
+                    android:id="@+id/Exitbtn"
+                    android:layout_width="130dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="#D20C50F7"
+                    android:drawableTop="@drawable/exit"
+                    android:drawablePadding="20dp"
+                    android:padding="20dp"
+                    android:text="Exit"
+                    android:textColor="#FFF" />
+            </GridLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

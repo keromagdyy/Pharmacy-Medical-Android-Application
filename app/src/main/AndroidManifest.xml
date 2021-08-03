@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pharmacyproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher2_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher2_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Medicine"></activity>
+        <activity android:name=".Sign_Up" />
+        <activity android:name=".Supplier" />
+        <activity android:name=".invoice" />
+        <activity android:name=".Activity_MedInvoice" />
+        <activity android:name=".aboutus" />
+        <activity android:name=".problem" />
+        <activity android:name=".company" />
+        <activity android:name=".account" />
+        <activity android:name=".departments" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
